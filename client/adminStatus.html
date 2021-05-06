@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,600,700"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/37b0ae8922.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Admin-Status</title>
+    <style>
+      *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+     list-style: none;
+ }
+ html {
+     font-size: 14px;
+     
+ }
+ body {
+     margin: 35px;
+     background-color:#000000;
+   }
+ 
+ .all{
+     
+     height: 1020px;
+     
+ }
+ nav { 
+   float: left;
+   width: 19%;
+   height: 1020px;
+   background-color:#e99323;
+   border-top-left-radius: 4px;
+   
+ }
+ .categoryList li:hover a{
+     color: rgb(141, 164, 206);
+ }
+ 
+ .categoryList li:hover a{
+     color: rgb(0, 0, 0);
+ }
+ .wrapper .nav2 a h2{
+ transition: all 0.5s;    
+ }
+ .wrapper .nav2 a h2:hover{
+     color: rgb(242, 244, 247);
+     opacity: 0.8;
+ }
+ .categoryList li a{
+     transition: all 0.6s;
+ }
+ 
+ .nav2{
+     margin-bottom: 20px;
+     padding: 30px;
+     background-color: #000000;
+     position: relative;
+     border-top-right-radius: 4px;
+     
+ }
+ nav{
+     color: white;
+ }
+ .nav2 a{
+     color: white;
+ }
+ .wrapper {
+   float: right;
+   width: 81%;
+   height: 1020px;
+   background-color: #eaf0f3;
+   
+ }
+ .container{
+     padding: 35px;
+ }
+ 
+ .categoryList{
+     padding-top: 20px;
+     padding-left: 10px;
+ }
+ .navList{
+     margin-top: 40px;
+ }
+ .navList ul li{
+     font-weight: 600;
+     padding-bottom: 30px;
+ }
+ .navList a{
+     color: #f2f2f2;
+ 
+ }
+ .nav2 i{
+     float: right;
+     color: white;
+     margin-left: 20px;
+     margin-right: 20px;
+     font-size: 30px;
+ 
+ }
+ 
+ .nav2 h2{
+     color: white    ;
+     float: inherit;
+     margin-right: 25px;
+     display: inline;
+ }
+ 
+         
+ .box1 {
+     margin-top: 30px;
+     text-align: center;   
+ 
+ }
+ .wrapper{
+     
+     font-size: 16px;
+ 
+ }
+ .wrapper2{
+     padding-top: 20px;
+     padding-left: 20px;
+ }
+ 
+ .box{
+     width:100% ;
+     float: left;
+     
+ }
+ .container2{
+     padding: 60px 160px;
+ }
+ .container2 h1{
+     font-size: 40px;
+ }
+         
+ .wrapper2{
+     position: relative;
+ }
+ #pages {
+     position: absolute;
+     top: 870px;
+     left: 400px;
+     float: left;
+ }
+ #pages ul li{
+     display: inline;
+     border: 1px solid rgb(225, 229, 236);
+     margin-right: 20px;
+     padding: 5px 12px;
+     border-radius: 5px;
+ }
+ #pages ul li:hover{
+     cursor: pointer;
+     background-color: rgb(239, 241, 247);
+     opacity: 0.7;
+     color: white;
+ }
+ 
+ #first{
+     background-color: rgb(240, 243, 248);
+     color: white;
+ }
+ 
+ .container2 h1{
+     color:rgb(245, 245, 245);
+ }
+ .container h1{
+     font-family:serif; font-size: 45px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;  
+     margin-bottom: 60px;
+     color:white;
+ }
+         
+ #box{
+     width: 1000px;
+     height: 500px;
+     background-color: rgba(255, 255, 255, 0.25);
+     margin: auto;
+     border-radius:3px;
+     box-shadow: 5px 5px 6px rgb(53, 11, 11);
+     margin-top: 100px;
+     padding: 20px; 
+            
+  } 
+ .color{
+     color: #678dad;
+     
+ }     
+ input[type=submit] {
+   width: 200px;
+   background-color:#114d80;
+   color: rgb(212, 162, 162);
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ 
+ input[type=submit]:hover {
+   cursor: pointer;
+   background-color: #b6ccda;
+   color: rgb(189, 162, 162);
+ } 
+         
+ table {
+   font-family: arial, sans-serif;
+   border-collapse: collapse;
+   width: 100%;
+ }
+ 
+ td, th {
+   border: 1px solid #e7d1d1;
+   text-align: left;
+   padding: 8px;
+ }
+ 
+ tr:nth-child(even) {
+   background-color: #ffffff;
+ }       
+            
+   </style>
+  </head>
+  <body>
+    
+      <div class="all">
+    <nav>
+      <div class="container">
+        <a ><h1>ADMIN</h1></a>
+        <div class="navList">
+          <ul class="categoryList">
+            <li><a href="adminStatus.html">STATUS</a></li>
+            <li><a href="bookedRoom.html">BOOKED ROOMS</a></li>
+            <li><a href="payment.html">PAYMENT</a></li>
+            <li><a href="profit.html">PROFIT</a></li>
+            <li><a href="login.php">LOGOUT</a></li>
+            </ul>
+        </div>
+          
+      </div>
+    </nav>
+    <div class="wrapper">
+      <div class="nav2">
+        <div>
+          <a ><h2 >STATUS-ROOM BOOKİNG</h2></a>
+          
+        
+        <a ><i class="far fa-user-circle"></i></a> 
+        </div>
+  
+      </div>
+      <div class="wrapper2">
+      
+          <div class="btn-group">
+            <div id="box">
+             <div >
+               <div class="color"  >
+                             <a>NEW ROOM BOOKING</a><br><br>
+                             <i class="fas fa-minus"></i>Name : -<br><br>
+                             <i class="fas fa-minus"></i>Surname : -<br><br>
+                             <i class="fas fa-minus"></i>Hotel Name : -<br><br>
+                             <i class="fas fa-minus"></i>Room : -<br><br>
+                             <i class="fas fa-minus"></i>Adult(s) : -<br><br>
+                             <i class="fas fa-minus"></i>Child(ren) : -<br><br>
+                             <i class="fas fa-minus"></i>Check-in Date : -<br><br>
+                             <i class="fas fa-minus"></i>Check-out Date : -<br><br>
+                            
+    </div>
+    
+  </div>
+   <div class="right" >
+      <input type="submit" value="CONFIRM ROOM">
+   </div>
+       
+   </div>
+          </div>
+          
+
+ 
+        <div id="pages">
+          <ul>
+            <li><i class="fas fa-arrow-left"></i></li>
+            <li id="first">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li><i class="fas fa-arrow-right"></i></li>
+          </ul>
+      </div>
+       
+      
+      
+    </div>
+    </div>
+
+  </body>
+</html>
